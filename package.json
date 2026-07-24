@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-w3c",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "W3C MCP — web-standards lookup over w3c/browser-specs (GitHub, CF-reachable).",
   "type": "module",
   "main": "src/index.ts",
