@@ -1,0 +1,36 @@
+[
+  {
+    "name": "w3c_search",
+    "description": "Find W3C / web-standards specifications by keyword or topic — HTML, CSS, WCAG accessibility, DOM, SVG, WAI-ARIA, WebAuthn, Fetch, and 800+ others. Answers \"what W3C spec defines X\", \"the CSS grid specification\", \"web accessibility standard\", \"which spec covers custom elements\". Returns specs with shortname, title, status (Recommendation / Working Draft / Living Standard), organization, and official URL. Example: w3c_search({ query: \"flexbox\" }).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Keyword(s) matched against spec titles, e.g. \"flexbox\", \"accessibility\", \"web components\"."
+        },
+        "limit": {
+          "type": "number",
+          "description": "Max results 1-25 (default 10)."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "w3c_spec",
+    "description": "Detail for one web-standards spec by shortname (\"WCAG21\", \"css-grid-1\", \"html\") or title fragment (\"web content accessibility\"). Returns title, status, organization (W3C/WHATWG), working groups, series, official URL, editor's-draft URL. Example: w3c_spec({ spec: \"WCAG21\" }). Accepts shortname/name/title too.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "spec": {
+          "type": "string",
+          "description": "Spec shortname or title fragment."
+        }
+      },
+      "required": []
+    }
+  }
+]

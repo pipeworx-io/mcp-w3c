@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/w3c",
   "title": "W3c",
-  "description": "W3C MCP — web-standards lookup over w3c/browser-specs (GitHub, CF-reachable).",
-  "version": "0.1.2",
+  "description": "W3C MCP — web-standards lookup over w3c/browser-specs (GitHub, CF-reachable). ~800 current web…",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/w3c",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-w3c",
