@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-w3c",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "W3C MCP — web-standards lookup over w3c/browser-specs (GitHub, CF-reachable). ~800 current web specs (W3C + WHATWG): HTML, CSS, WCAG, DOM, SVG, ARIA, WebAuthn, Fetch, etc.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "w3c",
     "gatewaySlug": "w3c",
-    "sourceHash": "v1-8c6241b167c7183d6d75d7d1dc3ef20b33d84219f04c0584a6629b541ce86cb0",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-035c7b6f3770d3f334500c5672e4bb022da14c4a2d804c2ca5f32341e2f747ca",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
